@@ -9,7 +9,7 @@ class Driver extends Model
 {
     use HasFactory;
 
-    protected $fillable = [];
+    protected $guarded = [];
 
     public function user()
     {
